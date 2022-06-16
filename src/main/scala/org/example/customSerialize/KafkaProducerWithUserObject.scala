@@ -1,0 +1,31 @@
+package org.example.customSerialize
+
+import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
+
+import java.util.Properties
+
+object KafkaProducerWithUserObject {
+  def main(args: Array[String]): Unit = {
+    val props:Properties = new Properties()
+    props.put("bootstrap.servers","localhost:9092")
+    props.put("key.serializer","org.apache.kafka.common.serialization.StringSerializer")
+    props.put("value.serializer","org.example.customSerialize.UserSerializer")
+    props.put("acks","all")
+    val producer = new KafkaProducer[String, User](props)
+    try{
+      for(i <- 0 to 10) {
+        val user = new User("My Name - "+i,i)
+        val record = new ProducerRecord[String, User]("user-topic",i.toString,user)
+        val metadata = producer.send(record)
+        printf(s"sent record(key=%s value=%s) " +
+          "meta(partition=%d, offset=%d)\n",
+          record.key(), record.value(), metadata.get().partition(),
+          metadata.get().offset());
+      }
+    }catch{
+      case e:Exception => e.printStackTrace()
+    }finally {
+      producer.close()
+    }
+  }
+}

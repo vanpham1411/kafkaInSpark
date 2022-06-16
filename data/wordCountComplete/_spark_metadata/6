@@ -1,0 +1,7 @@
+v1
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/wordCountComplete/part-00000-a47a47fb-8273-4748-9951-bcb8544d93d4-c000.csv","size":0,"isDir":false,"modificationTime":1655261134094,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/wordCountComplete/part-00027-cece16e9-b405-41d8-8fac-32980e87cef8-c000.csv","size":7,"isDir":false,"modificationTime":1655261134666,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/wordCountComplete/part-00065-e300ea5d-82a3-44d9-a203-de166aa9783d-c000.csv","size":10,"isDir":false,"modificationTime":1655261135510,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/wordCountComplete/part-00073-d72bfd4e-cccb-4d2e-9125-cf544ec49921-c000.csv","size":6,"isDir":false,"modificationTime":1655261135774,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/wordCountComplete/part-00099-5ba89fbc-33dc-452a-adde-554b3e355b79-c000.csv","size":5,"isDir":false,"modificationTime":1655261136370,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/wordCountComplete/part-00171-e3ce29dd-07eb-4329-9167-a0617e46797f-c000.csv","size":7,"isDir":false,"modificationTime":1655261138375,"blockReplication":1,"blockSize":33554432,"action":"add"}

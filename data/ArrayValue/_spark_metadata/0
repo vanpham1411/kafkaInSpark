@@ -1,0 +1,4 @@
+v1
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/ArrayValue/part-00000-50b5eec0-66b5-4773-8cd7-796793a5bd47-c000.csv","size":244,"isDir":false,"modificationTime":1654854587952,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/ArrayValue/part-00001-ad8c3c93-fe31-4cea-92de-63f38cb48398-c000.csv","size":184,"isDir":false,"modificationTime":1654854587980,"blockReplication":1,"blockSize":33554432,"action":"add"}
+{"path":"file:///home/vanpt/IdeaProjects/kafkaInSpark/data/ArrayValue/part-00002-c9632cdc-aa89-4c35-8ba0-8e0e74193fd1-c000.csv","size":106,"isDir":false,"modificationTime":1654854588624,"blockReplication":1,"blockSize":33554432,"action":"add"}
